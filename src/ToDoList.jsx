@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 const TodoList = () => {
-  const [todos, setTodos] = useState([]);
+  const [todos, setTodos] = useState([]);//gadavivlit map it radgan gvinda axlai massivi
   const [newTask, setNewTask] = useState('');
 
 
