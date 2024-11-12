@@ -21,7 +21,7 @@ const TodoList = () => {
 
   useEffect(() => {
     console.log('updated todos:', todos);//every time cponsole log
-  }, [todos]);
+  }, [todos]);//rodesac todos change
 
   const chekcompleted = (id) => {
     setTodos(todos.map(todo => 
